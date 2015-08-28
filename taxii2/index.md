@@ -1,11 +1,9 @@
-<html>
-<head>
-<title>TAXII2 Groups &amp; Channels</title>
-</head>
-<body>
-<h1>Groups and Channels in TAXII</h1>
+---
+title: TAXII2 Groups &amp; Channels
+---
+# Groups and Channels in TAXII
 
-<p>In the TAXII 2.0 design we are discussing introducing the concept of "groups" and "channels".</p>
+In the TAXII 2.0 design we are discussing introducing the concept of "groups" and "channels".
 
 <h2>Group</h2>
 <p>
