@@ -32,3 +32,39 @@ under the "bedford" hierarchy.
 
 A subscription to /groups/mitre/bedford would receieve ALL channels under the bedford group. "bedford" acts an alias
 for all of the channels under its hierarchy.
+
+---
+
+A question has arisen as to how the paths are represented.
+
+  /group(s)
+    /group1
+      /group(s)
+        /group2
+        /group3
+          /channel(s)
+            /channel1
+            /channel2
+    /channel(s)
+      /channel1
+      /channel2
+        
+/group(s)
+   [/group(s)]
+     [{group-id}] ...
+   [/channel(s)]
+     [{channel-id}] ...
+
+In this case, the item type, group or channel, is explicit in the path.
+
+vs
+
+/group(s)
+  /group1
+    /group2
+    /group3
+      /channel1
+      /channel2
+    /channel1
+    /channel2
+  
