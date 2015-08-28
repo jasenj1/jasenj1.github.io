@@ -1,3 +1,9 @@
+---
+title: TAXII2 Groups & Channels
+layout: flat
+no_in_page_title: true
+---
+
 # Groups and Channels in TAXII
 
 In the TAXII 2.0 design we are discussing introducing the concept of "groups" and "channels".
