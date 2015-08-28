@@ -10,7 +10,7 @@ In the TAXII 2.0 design we are discussing introducing the concept of "groups" an
 A group is a collection of channels. When first presented, this was based on the idea of "trust groups", who can see what.
 If you were a member of a "group" then you would have permission to see everything within that group.
 
-## >Channel
+## Channel
 
 A channel is the place where TAXII messages are published and subscribed. It is the identifier of the "location" to which
 messages are sent and received.
