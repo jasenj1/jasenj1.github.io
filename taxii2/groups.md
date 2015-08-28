@@ -68,3 +68,4 @@ vs
     		/channel1
 			/channel2
   
+In the above, groups & channels are listed in order for convenience, there is no requirement that they appear in order.
