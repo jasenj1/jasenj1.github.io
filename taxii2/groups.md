@@ -71,5 +71,10 @@ vs
       /channel2
     /channel1
     /channel2
-</pre>    
+</pre>
+
+<pre>
+/{group-id}
+  [/{group-id} | {channel-id}]
+</pre>
 In the above, groups & channels are listed in order for convenience, there is no requirement that they appear in order.
