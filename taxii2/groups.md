@@ -49,13 +49,14 @@ A question has arisen as to how the paths are represented.
 				/channel1
 				/channel2
         
+        
 	/group(s)
 		[/group(s)]
 			[/{group-id}] ...
 		[/channel(s)]
-		[/{channel-id}] ...
+			[/{channel-id}] ...
 
-In this case, the item type, group or channel, is explicit in the path.
+In this case, the item type, 'group' or 'channel', is explicit in the path.
 
 vs
 
