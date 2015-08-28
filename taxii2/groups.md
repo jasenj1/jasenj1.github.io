@@ -58,7 +58,7 @@ A question has arisen as to how the paths are represented.
       [/{group-id}] ...
     [/channel(s)]
       [/{channel-id}] ...
-  ]
+  ] ...
 </pre>			
 
 In this case, the item type, 'group' or 'channel', is explicit in the path.
@@ -79,7 +79,7 @@ vs
 <pre>
 /groups
   [/{group-id}
-    [/{group-id} | {channel-id}]
-  ]
+    [/{group-id} | {channel-id}] ...
+  ] ...
 </pre>
 In the above, groups & channels are listed in order for convenience, there is no requirement that they appear in order.
