@@ -37,18 +37,19 @@ for all of the channels under its hierarchy.
 
 A question has arisen as to how the paths are represented.
 
-	/group(s)
-		/group1
-			/group(s)
-        		/group2
-        		/group3
-					/channel(s)
-						/channel1
-						/channel2
-			/channel(s)
-				/channel1
-				/channel2
-        
+<pre>
+/group(s)
+  /group1
+    /group(s)
+      /group2
+      /group3
+        /channel(s)
+          /channel1
+          /channel2
+    /channel(s)
+      /channel1
+      /channel2
+</pre>        
         
 	/group(s)
 		[/group(s)]
